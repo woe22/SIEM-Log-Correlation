@@ -39,6 +39,6 @@ echo "2025-08-07 21:30:00 INFO Test log from Graylog pipeline lab" | nc -u local
 
 ## Why It Matters
 
-Without pipelines, incoming logs would remain unstructured text, making queries and alerts unreliable. Pipeline processing 
+Without pipelines, incoming logs would remain unstructured text, making queries and alerts unreliable. Pipeline processing enables consistent enrichment of logs, turning flat messages into structured documents. This is foundational for building dashboards, performing searches, and detecting threats using log-level context and parsed metadata. 
 
 ---
